@@ -23,11 +23,16 @@ namespace dragonBallClick.Controllers
         {
             goku.PowerUp();
             return Json(
-
-                    // imgUrl = image, //fix it in post : )
-                    // newPower = goku.power
+                new {
+                    power = goku.Power,
+                    imageurl = image //fix it in post : )
                 }
             );
+        }
+        [HttpPost]
+        [Route("/add/krillin")]
+        public IActionResult Krillin(data){
+            
         }
     }
 }
