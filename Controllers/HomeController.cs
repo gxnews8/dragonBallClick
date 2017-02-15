@@ -30,5 +30,29 @@ namespace dragonBallClick.Controllers
             System.Console.WriteLine("Krillins the hommie. He helps you train and makes you 1.5X more efficient");
             return View();
         }
+        [HttpPost]
+        [Route("/add/vegetta")]
+        public IActionResult Vegetta(){
+            System.Console.WriteLine("");
+            return View();
+        }
+        [HttpPost]
+        [Route("/add/masterRoshi")]
+        public IActionResult MasterRoshi(){
+            System.Console.WriteLine("");
+            return View();
+        }
+        [HttpPost]
+        [Route("/add/cell")]
+        public IActionResult Cell(){
+            System.Console.WriteLine("");
+            return View();
+        }
+        [HttpPost]
+        [Route("/add/shenLong")]
+        public IActionResult ShenLong(){
+            System.Console.WriteLine("");
+            return View();
+        }
     }
 }
