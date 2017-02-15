@@ -7,6 +7,7 @@ namespace dragonBallClick.Controllers
 {
     public class HomeController : Controller
     {
+        // Index. Creates a new Player object, named Goku.
         [HttpGet]
         [Route("")]
         public IActionResult Index()
@@ -14,6 +15,8 @@ namespace dragonBallClick.Controllers
             Player goku = new Player();
             return View();
         }
+
+        // Powers Goku up using the Power Button
         [HttpPost]
         [Route("/click")]
         public IActionResult Click()
