@@ -14,12 +14,12 @@ namespace dragonBallClick {
             PPS = 0;
             TotalPower = 0;
         }
-        public AddTrainer(string Name){
+        public void AddTrainer(string Name){
             Trainer theTrainer = new Trainer(Name);
             PPS += theTrainer.ClickSpeed;
             Trainers.Add(theTrainer);
         }
-        public PowerUp(){
+        public void PowerUp(){
             Power += Level;
             TotalPower += Level;
         }
