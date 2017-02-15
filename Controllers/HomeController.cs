@@ -24,8 +24,8 @@ namespace dragonBallClick.Controllers
             goku.PowerUp();
             return Json(
 
-                    imgUrl = image, //fix it in post : )
-                    newPower = goku.power,
+                    // imgUrl = image, //fix it in post : )
+                    // newPower = goku.power
                 }
             );
         }
