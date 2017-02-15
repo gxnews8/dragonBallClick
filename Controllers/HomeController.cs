@@ -19,6 +19,12 @@ namespace dragonBallClick.Controllers
         public IActionResult Click()
         {
             goku.PowerUp();
+            return Json(
+
+                    imgUrl = image, //fix it in post : )
+                    newPower = goku.power,
+                }
+            );
         }
     }
 }
