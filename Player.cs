@@ -7,7 +7,7 @@ namespace dragonBallClick {
         public int TotalPower;
         public int Power;
         public int Level;
-        public int PPS;
+        public double PPS;
         public List<Trainer> Trainers;
 
         public Player(){

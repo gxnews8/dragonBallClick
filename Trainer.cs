@@ -1,12 +1,14 @@
+using System.Collections.Generic;
+
 namespace dragonBallClick
 {
     public class Trainer{
         public string Character;
-        public string ClickSpeed;
+        public double ClickSpeed;
         public Trainer(string WhoDat)
         {
             Character = WhoDat;
-            Dictionary<string,int> characterList = new Dictionary<string,int>()
+            Dictionary<string,double> characterList = new Dictionary<string,double>()
             {
                 {"Krillin", 0.5},
                 {"Vegeta", 2},
