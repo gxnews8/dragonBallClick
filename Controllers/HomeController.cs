@@ -13,11 +13,6 @@ namespace dragonBallClick.Controllers
         [Route("")]
         public IActionResult Index()
         {
-            if (HttpContext.Session.GetString("Goku").GetType() != Player){
-                
-            }
-
-                HttpContext.Session.SetString("Goku", )
             return View();
         }
 
@@ -26,18 +21,14 @@ namespace dragonBallClick.Controllers
         [Route("/click")]
         public IActionResult Click()
         {
-            goku.PowerUp();
-            return Json(
-                new {
-                    power = goku.Power,
-                    imageurl = image //fix it in post : )
-                }
-            );
+            System.Console.WriteLine("POWER UUUUUUPPPP");
+            return View();
         }
         [HttpPost]
         [Route("/add/krillin")]
-        public IActionResult Krillin(Object data){
-            
+        public IActionResult Krillin(){
+            System.Console.WriteLine("Krillins the hommie. He helps you train and makes you 1.5X more efficient");
+            return View();
         }
     }
 }
