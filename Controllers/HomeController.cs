@@ -7,12 +7,18 @@ namespace dragonBallClick.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: /Home/
         [HttpGet]
         [Route("")]
         public IActionResult Index()
         {
+            Player goku = new Player();
             return View();
+        }
+        [HttpPost]
+        [Route("/click")]
+        public IActionResult Click()
+        {
+            goku.PowerUp();
         }
     }
 }
