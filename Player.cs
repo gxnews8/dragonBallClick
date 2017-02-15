@@ -6,6 +6,6 @@ namespace dragonBallClick {
         public int lifePower;
         public int Power;
         public int Level;
-        public List<string> Trainers;
+        public List<Trainer> Trainers;
     }
 }
