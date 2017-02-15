@@ -11,7 +11,7 @@ namespace dragonBallClick
                 {"Vegeta", 2},
                 {"Master Roshi", 1},
                 {"Mr. Popo", 2.5},
-                {"The Flipping Dragon", 9001}
+                {"The Fucking Dragon", 9001}
             }
             ClickSpeed = characterList(WhoDat);
         }
