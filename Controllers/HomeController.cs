@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace dragonBallClick.Controllers
@@ -12,7 +13,11 @@ namespace dragonBallClick.Controllers
         [Route("")]
         public IActionResult Index()
         {
-            Player goku = new Player();
+            if (HttpContext.Session.GetString("Goku").GetType() != Player){
+                
+            }
+
+                HttpContext.Session.SetString("Goku", )
             return View();
         }
 
