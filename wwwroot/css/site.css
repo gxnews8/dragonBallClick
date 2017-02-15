@@ -1,1 +1,21 @@
-/*Write all of your CSS here*/
+.col-sm-8 {
+    /*border: 2px solid black;*/
+    }/*Write all of your CSS here*/
+.col-sm-4 {
+   
+    /*border: 2px solid black;*/
+    }
+.bottom {
+    
+    border: 2px solid black;
+    
+}
+
+.trainers {
+    margin-right: -15px;
+}
+
+.trainer {
+    height: 100px;
+    border: 1px solid black;
+}
