@@ -8,13 +8,29 @@ var $clickBtn = $('.click-btn'),
     $trainer5Btn = $('.shenLong-btn'),
     $levelUp = $('.levelUp')
 
+$trainer1Btn.on('click', function(){
+    console.log('krillin');
+    
+})
+$trainer2Btn.on('click', function(){
+    console.log('vegeta');
+    
+})
+$trainer3Btn.on('click', function(){
+    console.log('roshi');
+    
+})
+$trainer4Btn.on('click', function(){
+    console.log('cell');
+    
+})
+$trainer5Btn.on('click', function(){
+    console.log('shen long');
+    
+})
+
 function click(){
 
 }
 
-function ally(who){
-    if (act == 'feed') url = '/api/krillin'
-    else if (act == 'play') url = '/api/play'
-    else if (act == 'work') url = '/api/work'
-    else if (act == 'sleep') url = '/api/sleep'
-}
+function bindAlly()
