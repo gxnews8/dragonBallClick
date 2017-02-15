@@ -9,11 +9,11 @@ var $clickBtn = $('.click-btn'),
     $levelUp = $('.levelUp')
 
 
-$trainer1Btn.on('click', function(){
+$('.krillin-btn').on('click', function(){
     console.log('krillin');
-    $.post('/add/krillin', function(data){
-        console.log('request returned'+data);
-    });
+    // $.post('/add/krillin', function(data){
+    //     console.log('request returned'+data);
+    // });
 })
 $trainer2Btn.on('click', function(){
     console.log('vegeta');

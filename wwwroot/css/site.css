@@ -1,5 +1,12 @@
 .col-sm-8 {
     /*border: 2px solid black;*/
+    height: 95%;
+}
+
+.col-sm-8 img{
+    /*border: 2px solid black;*/
+    height: 60%;
+    width: 60%;
 }
 
 
@@ -20,4 +27,9 @@
 .trainer {
     height: 100px;
     border: 1px solid black;
+}
+.train {
+    max-height: 18%;
+    max-width: 250px;
+
 }
