@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace dragonBallClick {
     
     public class Player{

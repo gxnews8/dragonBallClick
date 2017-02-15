@@ -31,7 +31,7 @@ namespace dragonBallClick.Controllers
         }
         [HttpPost]
         [Route("/add/krillin")]
-        public IActionResult Krillin(data){
+        public IActionResult Krillin(Object data){
             
         }
     }
