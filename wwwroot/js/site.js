@@ -8,14 +8,14 @@ var $clickBtn = $('.click-btn'),
     $trainer5Btn = $('.shenLong-btn'),
     $levelUp = $('.levelUp')
 
-
-$('.krillin-btn').on('click', function(){
+$(document).ready(function(){
+$(".krillin-btn").on('click', function(){
     console.log('krillin');
     // $.post('/add/krillin', function(data){
     //     console.log('request returned'+data);
     // });
 })
-$trainer2Btn.on('click', function(){
+$("trainer2Btn").on('click', function(){
     console.log('vegeta');
     $.post('/add/vegeta', function(data){
         console.log('request returned'+data);
@@ -44,4 +44,5 @@ function click(){
 
 }
 
-function bindAlly()
+// function bindAlly()
+})
